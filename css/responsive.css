@@ -1,0 +1,537 @@
+@media (max-width:576px){
+
+    #footer{
+        height: 100vh;
+        background-color: #000;
+        z-index:111;
+    }
+
+#righth1 h1 {
+    font-size: 110px;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+#sliding-text h1{
+    font-size: 55px;
+    display: inline-block;
+    color: black;
+}
+#round{
+    width: 25px;
+    height: 25px;
+    background-color:#FE320A;
+    display: inline-block;
+    margin: 10px 14px 5px 14px;
+    
+}
+#page2-bottom h1 {
+    margin: auto;
+    margin-top: 90px;
+    font-size:30px;
+    color:black;
+    width: 100%;
+    z-index: 11;
+    font-weight: 900;
+    line-height:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bottom-part2 {
+    margin: auto;
+    width: 95%;
+    margin-top: 100px;
+    /* background-color: aqua; */
+}
+#bottom-part2 p {
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: 2vw;
+    font-size:20px;
+    /* z-index: 11; */
+}
+#page2 .gooey1 {
+    height: 200px;
+    width: 200px;
+    top: 14%;
+    position: absolute;
+    border-radius: 60%;
+    background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+     left: 25%;
+     /* bottom: -20%; */
+     z-index: 0;
+    
+    filter: blur(5px);
+    animation-name: gooey;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+#page2 #gooey {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+     left: 25%;
+     top: 40%;
+     /* bottom: -20%; */
+    
+    filter: blur(20px);
+    animation-name: gooey;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+#elem{
+    height: 100px;
+    cursor: pointer;
+    
+    
+}
+#elem h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+#page3 h4{
+    width: 180px;
+
+    overflow: hidden;
+    margin-top: 50px;
+    /* z-index: 222; */
+}
+#loader h1{
+    font-size:60px;
+    color: transparent;
+    background: linear-gradient(to right,orange,orangered);
+    -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-delay: 0.9s;
+    animation-timing-function: linear;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    /* background: #fff; */
+    border-left: 1px solid gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    width: 100%;
+    background: transparent;
+    font-size: 12px;
+}
+.jdskudf{
+    width: 100%;
+    justify-content: center;
+}
+.jdskudf span{
+    margin-bottom: 50px;
+    
+}
+
+.jkldjfkl{
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+} 
+
+.jkldjfkl h3{
+    font-size: 30px;
+    margin-top: 50px;
+}
+#footer h1{
+    font-size: 90px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#footer-bottom{
+    font-size: 10px;
+}
+#hero-shape2{
+    width: 60vw;
+    height: 66vw;
+    background-color: orangered;
+    right: 0;
+    top: 20vh;
+    filter: blur(80px);
+}
+#hero-11{
+   background: linear-gradient(#FE320A,#fe570a);
+    filter: blur(10px);
+    width: 30vw;
+    height:30vw;
+    
+}
+#hero-22{
+    background: linear-gradient(#FE320A,#fe570a);
+    filter: blur(25px);
+    width: 30vw;
+    height:30vw;
+    animation-name:anime22 ;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#hero-33{
+    background: linear-gradient(#FE320A,#fe570a);
+    filter: blur(10px);
+    width: 30vw;
+    height:30vw;
+    animation-name:anime11 ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes anime11 {
+    from{
+        transform: translate(55%,-30%);
+    }
+    to{
+        transform: translate(30%,-15%);
+    }
+}
+@keyframes anime22 {
+    from{
+        transform: translate(-5%,20%);
+    }
+    to{
+        transform: translate(-100%,30%);
+    }
+}
+    
+}
+@media (min-width: 576px) and (max-width: 992px){
+    #righth1 h1 {
+        font-size: 90px;
+        letter-spacing: 18px;
+        line-height: 150px;
+    }
+    #lefth3 h3{
+        font-size: 30px;
+    }
+    #page2-bottom h1 {
+        font-size:60px;
+        color:black;
+        width: 60%;
+        z-index: 1;
+        font-weight: 900;
+        line-height:60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #bottom-part2 {
+        width: 25%;
+        margin-top: 150px;
+        /* background-color: aqua; */
+    }
+    #bottom-part2 p {
+        font-weight: 400;
+        margin-top: 2vw;
+        font-size:14px;
+    }
+    #page2 #gooey {
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        border-radius: 50%;
+        background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+         left: 25%;
+         /* bottom: -20%; */
+        
+        filter: blur(20px);
+        animation-name: gooey;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    
+    }
+    #elem{
+        height: 100px;
+        cursor: pointer;
+        
+        
+    }
+    #elem h2{
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+    #page3 h4{
+        width: 180px;
+        overflow: hidden;
+        margin-top: 50px;
+        /* z-index: 222; */
+    }
+    #loader h1{
+        font-size: 4vw;
+        color: transparent;
+        background: linear-gradient(to right,orange,orangered);
+        -webkit-background-clip: text;
+        position: absolute;
+        opacity: 0;
+        animation-name: load;
+        animation-duration: 1s;
+        animation-delay: 0.9s;
+        animation-timing-function: linear;
+    }
+    #footer h1{
+        font-size: 300px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #footer{
+        height:0px;
+        background-color: #000;
+        z-index:111;
+    } 
+    #hero-shape2{
+        width: 46vw;
+        height: 36vw;
+        background-color: orangered;
+        right: 0;
+        top: -23vh;
+        filter: blur(150px);
+    }
+    #hero-11{
+       background: linear-gradient(#FE320A,#fe570a);
+        filter: blur(10px);
+        width: 30vw;
+        height:30vw;
+        
+    }
+    #hero-22{
+        background: linear-gradient(#FE320A,#fe570a);
+        filter: blur(25px);
+        width: 30vw;
+        height:30vw;
+        animation-name:anime22 ;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    #hero-33{
+        background: linear-gradient(#FE320A,#fe570a);
+        filter: blur(10px);
+        width: 30vw;
+        height:30vw;
+        animation-name:anime11 ;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes anime11 {
+        from{
+            transform: translate(55%,-30%);
+        }
+        to{
+            transform: translate(30%,-15%);
+        }
+    }
+    @keyframes anime22 {
+        from{
+            transform: translate(5%,-20%);
+        }
+        to{
+            transform: translate(-100%,30%);
+        }
+    }
+    
+}
+@media (min-width:768px){
+    #righth1 h1 {
+        font-size: 180px;
+        letter-spacing: 18px;
+        line-height: 150px;
+    }
+    #sliding-text h1{
+        font-size: 120px;
+        display: inline-block;
+        color: black;
+    }
+    #round{
+        width: 50px;
+        height: 50px;
+        background-color:#FE320A;
+        display: inline-block;
+        margin: 10px 14px 18px 14px;
+        
+    }
+    #page2-bottom {
+        height: 80vh;
+        width: 100%;
+        /* background-color: aliceblue; */
+        margin-top:80px;
+        padding: 4.5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 9;
+    }
+    #page2-bottom h1 {
+        font-size:60px;
+        color:black;
+        width: 60%;
+        z-index: 1;
+        font-weight: 900;
+        line-height:60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #bottom-part2 {
+        width: 25%;
+        margin-top: 150px;
+        /* background-color: aqua; */
+    }
+    #bottom-part2 p {
+        font-weight: 400;
+        margin-top: 2vw;
+        font-size:14px;
+    }
+    #page2 #gooey {
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        border-radius: 50%;
+        background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+         left: 25%;
+         /* bottom: -20%; */
+        
+        filter: blur(20px);
+        animation-name: gooey;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    
+    }
+    #elem{
+        height: 100px;
+        cursor: pointer;
+        
+        
+    }
+    #elem h2{
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+    #page3 h4{
+        width: 180px;
+        overflow: hidden;
+        margin-top: 50px;
+        /* z-index: 222; */
+    }
+    #loader h1{
+        font-size: 4vw;
+        color: transparent;
+        background: linear-gradient(to right,orange,orangered);
+        -webkit-background-clip: text;
+        position: absolute;
+        opacity: 0;
+        animation-name: load;
+        animation-duration: 1s;
+        animation-delay: 0.9s;
+        animation-timing-function: linear;
+    }
+    .swiper-slide {
+        max-width: 40%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; */
+        border-left: 1px solid gray ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #footer input{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: none;
+        width: 250px;
+        background: transparent;
+    }
+    #footer h1{
+        font-size: 300px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #footer{
+        height: 100vh;
+        background-color: #000;
+        z-index:111;
+    } 
+    #hero-shape2{
+        width: 46vw;
+        height: 36vw;
+        background-color: orangered;
+        right: 0;
+        top: -23vh;
+        filter: blur(150px);
+    }
+    #hero-11{
+       background: linear-gradient(#FE320A,#fe570a);
+        filter: blur(10px);
+        width: 30vw;
+        height:30vw;
+        
+    }
+    #hero-22{
+        background: linear-gradient(#FE320A,#fe570a);
+        filter: blur(25px);
+        width: 30vw;
+        height:30vw;
+        animation-name:anime22 ;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    #hero-33{
+        background: linear-gradient(#FE320A,#fe570a);
+        filter: blur(10px);
+        width: 30vw;
+        height:30vw;
+        animation-name:anime11 ;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes anime11 {
+        from{
+            transform: translate(55%,-30%);
+        }
+        to{
+            transform: translate(30%,-15%);
+        }
+    }
+    @keyframes anime22 {
+        from{
+            transform: translate(5%,-20%);
+        }
+        to{
+            transform: translate(-100%,30%);
+        }
+    }
+    
+}
