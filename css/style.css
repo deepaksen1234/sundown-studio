@@ -280,7 +280,7 @@ a {
     
     #full-scr{
         height: 100vh;
-        top: -100%;
+        top: -150%;
         z-index: 9;
         transition: 0.7s;
         background-color: rgba(0, 0, 0, 0.353);
